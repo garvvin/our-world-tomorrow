@@ -4,6 +4,7 @@ import NavbarSearch from './NavbarSearch'
 
 import { useState } from 'react'
 import { RxHamburgerMenu } from "react-icons/rx";
+import Link from 'next/link'
 
 export default function Navbar() {
     const [open, setOpen] = useState(false) 
@@ -15,7 +16,7 @@ export default function Navbar() {
                     <span className='inline lg:hidden mx-3 hover:text-sky-500 cursor-pointer' onClick={() => setOpen(!open)}>
                         <RxHamburgerMenu />
                     </span>
-                    <a href="/" className='font-semibold hover:text-sky-400 text-xl'>Our World Tomorrow</a>
+                    <Link href="/"><span className='font-semibold hover:text-sky-400 text-xl'>Our World Tomorrow</span></Link>
                 </div>
 
                 <ul className={`flex flex-col w-100 text-center lg:w-auto lg:flex lg:flex-row lg:min-h-20`}>
