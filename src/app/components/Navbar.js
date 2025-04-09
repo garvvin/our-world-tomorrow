@@ -11,7 +11,7 @@ export default function Navbar() {
 
     return (
         <nav className='w-full flex flex-col lg:flex-row lg:justify-center h-20'>
-            <div className={`flex flex-col duration-200 lg:flex-row  overflow-hidden items-center ${open ? 'min-h-50' : 'min-h-full'} lg:min-h-full lg:gap-5 lg:gap-10 bg-white-500 z-40`}>
+            <div className={`flex flex-col duration-200 lg:flex-row  overflow-hidden items-center ${open ? 'min-h-screen' : 'min-h-full'} lg:min-h-full lg:gap-5 lg:gap-10 bg-white-500 z-40`}>
                 <div className={`flex flex-row min-h-20 place-content-center items-center h-20 lg:h-full gap-8 lg:gap-5 ml-5`}>
                     <span className='inline lg:hidden mx-3 hover:text-sky-500 cursor-pointer' onClick={() => setOpen(!open)}>
                         <RxHamburgerMenu />
@@ -34,7 +34,7 @@ export default function Navbar() {
                     </li>
                 </ul>
 
-                <NavbarSearch />
+                <NavbarSearch open={open} />
             </div>
         </nav>
     )
