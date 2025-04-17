@@ -16,7 +16,7 @@ export default function Navbar() {
                     <span className='inline lg:hidden mx-3 hover:text-sky-500 cursor-pointer' onClick={() => setOpen(!open)}>
                         <RxHamburgerMenu />
                     </span>
-                    <Link href="/"><span className='font-semibold hover:text-sky-400 text-xl'>Our World Tomorrow</span></Link>
+                    <Link href="/"><span className='font-semibold hover:text-sky-400 text-xl spectral-regular'>Our World Tomorrow</span></Link>
                 </div>
 
                 <ul className={`flex flex-col w-100 text-center lg:w-auto lg:flex lg:flex-row lg:min-h-20`}>
