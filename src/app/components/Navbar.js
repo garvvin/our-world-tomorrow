@@ -18,7 +18,7 @@ export default function Navbar() {
         } lg:min-h-full lg:gap-5 lg:gap-10 bg-white-500 z-40`}
       >
         <div
-          className={`flex flex-row min-h-20 place-content-center items-center h-20 lg:h-full gap-8 lg:gap-5 mr-5`}
+          className={`flex flex-row min-h-20 place-content-center items-center h-20 lg:h-full gap-8 lg:gap-5 mr-5 -translate-x-5 lg:translate-x-0`}
         >
           <span
             className="inline lg:hidden mx-3 hover:text-sky-500 cursor-pointer"
@@ -51,7 +51,7 @@ export default function Navbar() {
             <NavbarBtn href="/contact">Contact</NavbarBtn>
           </li>
           <li>
-            <NavbarBtn href="/credit">Credit</NavbarBtn>
+            <NavbarBtn href="/credit">Our Board</NavbarBtn>
           </li>
         </ul>
 
