@@ -13,7 +13,7 @@ export default function Credit() {
             <div className='flex gap-7 w-full'>
               <div className='w-[200px] h-[223px] md:w-[240px] md:h-[268px] lg:w-[300px] lg:h-[335px] relative'>
                 <div className='w-full h-full border-3 rounded-xl absolute top-2 left-2'></div>
-                <Image src='/images/shayla-mug.png' className='rounded-xl min-w-[200px] w-full h-full relative' alt="mugshot of shayla, the founder and program coordinator" width={300} height={400}/>
+                <Image src='/images/real-shayla-mug.jpeg' className='rounded-xl min-w-[200px] w-full h-full relative' alt="mugshot of shayla, the founder and program coordinator" width={300} height={400}/>
               </div>
               <div className='flex flex-col gap-3 pt-15 md:pt-20'>
                 <h3 className='font-bold text-md md:text-lg'>Founder / Program Coordinator</h3>
@@ -23,7 +23,7 @@ export default function Credit() {
             <div className='flex flex-row-reverse gap-7 w-full bottom-5'>
               <div className='w-[200px] h-[223px] md:w-[240px] md:h-[268px] lg:w-[300px] lg:h-[335px] relative'>
                 <div className='w-full h-full border-3 rounded-xl absolute top-2 right-2'></div>
-                <Image src='/images/niyah-mug.png' className='rounded-xl min-w-[200px] w-full h-full relative' alt="mugshot of niyah, the program director" width={300} height={400}/>
+                <Image src='/images/real-niyah-mug.jpeg' className='rounded-xl min-w-[200px] w-full h-full relative' alt="mugshot of niyah, the program director" width={300} height={400}/>
               </div>
               <div className='flex flex-col gap-3 pt-15 md:pt-20 text-right'>
                 <h3 className='font-bold text-md md:text-lg'>Program Director</h3>
@@ -33,7 +33,7 @@ export default function Credit() {
             <div className='flex gap-7 w-full'>
               <div className='w-[200px] h-[223px] md:w-[240px] md:h-[268px] lg:w-[300px] lg:h-[335px] relative'>
                 <div className='w-full h-full border-3 rounded-xl absolute top-2 left-2'></div>
-                <Image src='/images/garvin-mug.png' className='rounded-xl min-w-[200px] w-full h-full relative' alt="mugshot of garvin, the lead programmer" width={300} height={400}/>
+                <Image src='/images/real-garvin-mug.jpeg' className='rounded-xl min-w-[200px] w-full h-full relative' alt="mugshot of garvin, the lead programmer" width={300} height={400}/>
               </div>
               <div className='flex flex-col gap-3 pt-15 md:pt-20'>
                 <h3 className='font-bold text-md md:text-lg'>Lead Programmer</h3>

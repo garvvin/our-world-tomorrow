@@ -16,7 +16,7 @@ export default function Home() {
                 <div className='inner-shadow'></div>
             </div>
           </div>
-          <h2 className='font-extrabold text-xl mb-10'>Welcome to Our World Tomorrow.</h2>
+          <h2 className='font-extrabold text-xl mb-10 spectral-regular'>Welcome to Our World Tomorrow.</h2>
         </div>
     </>
   );
