@@ -29,7 +29,7 @@ export default function Contact() {
     <>
       <Navbar />
       <div className="w-full min-h-80 flex flex-col justify-center place-items-center">
-        <div className="flex flex-col gap-7 justify-center place-items-center w-4/5 max-w-300">
+        <div className="flex flex-col gap-7 justify-center place-items-center w-4/5 max-w-300 mt-10">
           <h2 className="text-xl spectral-bold">Contact Us</h2>
           <form
             onSubmit={handleSubmit}
