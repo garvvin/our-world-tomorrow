@@ -7,7 +7,7 @@ export default function NavbarSearch({ open }) {
 
   return (
     <div className={`${open ? "block" : "hidden"} h-full lg:flex items-center`}>
-      <div className="relative">
+      <div className="relative pointer-events-auto">
         <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
           <CiSearch />
         </div>

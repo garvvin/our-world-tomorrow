@@ -15,10 +15,10 @@ export default function Navbar() {
       <div
         className={`flex flex-col duration-200 lg:flex-row  overflow-hidden items-center ${
           open ? "min-h-screen" : "min-h-full"
-        } lg:min-h-full lg:gap-5 lg:gap-10 bg-white-500 z-40`}
+        } lg:min-h-full lg:gap-5 lg:gap-10 bg-white-500 z-40 pointer-events-none`}
       >
         <div
-          className={`flex flex-row min-h-20 place-content-center items-center h-20 lg:h-full gap-8 lg:gap-5 mr-5 -translate-x-5 lg:translate-x-0`}
+          className={`flex flex-row min-h-20 place-content-center items-center h-20 lg:h-full gap-8 lg:gap-5 mr-5 -translate-x-5 lg:translate-x-0 pointer-events-auto`}
         >
           <span
             className="inline lg:hidden mx-3 hover:text-sky-500 cursor-pointer"
@@ -32,14 +32,15 @@ export default function Navbar() {
             <Image
               src="/images/owt-logo.png"
               alt={"Our world tomorrow logo"}
-              width={"100"}
-              height={"100"}
+              width={"70"}
+              height={"70"}
+              className="select-none duration-300 hover:w-18 hover:transform-[rotateZ(-5deg)]"
             />
           </Link>
         </div>
 
         <ul
-          className={`flex flex-col w-100 text-center lg:w-auto lg:flex lg:flex-row lg:min-h-20`}
+          className={`flex flex-col w-100 text-center lg:w-auto lg:flex lg:flex-row lg:min-h-20 pointer-events-auto`}
         >
           <li>
             <NavbarBtn href="/about-us">About Us</NavbarBtn>

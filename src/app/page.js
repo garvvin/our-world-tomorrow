@@ -1,14 +1,13 @@
 //components
-import Navbar from './components/Navbar'
+import Navbar from "./components/Navbar";
 
-import './earth.css'
+import Image from "next/image";
+import "./earth.css";
 
-export default function Home() {
-  return (
-    <>
-        <Navbar />
-        <div className='w-full bg-blue-300 min-h-80 flex flex-col justify-center place-items-center'>
-          <div className='w-full overflow-hidden h-100 flex justify-center place-items-center'>
+/*
+spinning earth thing
+
+<div className='w-full overflow-hidden h-100 flex justify-center place-items-center'>
             <div className='planet-container'>
                 <div className='night'></div>
                 <div className='day'></div>
@@ -16,8 +15,24 @@ export default function Home() {
                 <div className='inner-shadow'></div>
             </div>
           </div>
-          <h2 className='font-extrabold text-xl mb-10 spectral-regular'>Welcome to Our World Tomorrow.</h2>
-        </div>
+*/
+
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+
+      <div className="w-full bg-blue-300 min-h-80 flex flex-col justify-center place-items-center">
+        <Image
+          src={"/images/owt-logo-alt.png"}
+          alt={"Our World Tomorrow Logo Alternative"}
+          width={200}
+          height={200}
+        />
+        <h2 className="font-extrabold text-xl mb-10 spectral-regular">
+          Welcome to Our World Tomorrow.
+        </h2>
+      </div>
     </>
   );
 }
